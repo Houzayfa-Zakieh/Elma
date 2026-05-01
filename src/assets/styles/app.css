@@ -1,0 +1,17 @@
+html {
+  direction: rtl;
+}
+@import "tailwindcss";
+.border-customize{
+  border-radius: 2px 10px;
+}
+*{
+  transition: all 0.3s;
+}
+::selection{
+  background-color: #03693c;
+  color: #fff;
+}
+.gradient{
+  background: linear-gradient(45deg,#03693c,#fff);
+}
